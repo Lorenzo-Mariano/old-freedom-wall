@@ -1,0 +1,46 @@
+.panel-left {
+	width: 25%;
+	height: 100%;
+}
+
+.options, .project-info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+
+	max-height: 75%;
+	width: 75%;
+
+	border-radius: 12px;
+	padding: 24px 12px;
+
+	margin: 0 auto;
+	margin-top: 24px;
+
+	background-color: #18191b;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+		rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.options a {
+	text-decoration: none;
+	padding: 18px;
+}
+
+a:hover {
+	background-color: #46464652;
+}
+
+a:focus {
+	background-color: #85858552;
+}
+
+.panel-right {
+	width: 25%;
+	height: 100%;
+}
+
+.banner {
+	width: 90%;
+	margin: 0 auto;
+}

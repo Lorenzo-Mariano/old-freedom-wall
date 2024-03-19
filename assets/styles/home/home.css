@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	color: #e3e3e3;
+}
+
+.window {
+	display: flex;
+	align-items: center;
+
+	height: 100vh;
+}
+
+.posts-container {
+	display: flex;
+	flex-direction: column;
+
+	height: 100vh;
+	width: 50%;
+
+	background-color: #28292e;
+	box-shadow: #00000030 0px 10px 20px, #0000003b 0px 6px 6px;
+}
+
+.location-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #28292e;
+}
+
+.location {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}

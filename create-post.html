@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+		<link rel="stylesheet" href="./assets/styles/create-edit-post.css">
+		<link rel="stylesheet" href="./assets/styles/scrolls.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+		<title>Create Post | Digital Freedom Wall Araullo University</title>
+	</head>
+
+	<body>
+		<form class="post-form" action="javascript:void(0)">
+			<div class="card-header">
+				Create Post
+			</div>
+			<div class="fields">
+				<div class="error"></div>
+				<textarea class="title" placeholder="Type your title!" maxlength="60" required></textarea>
+				<textarea class="description" placeholder="Description here. Fire away!" maxlength="1200" required></textarea>
+			</div>
+			<div class="buttons">
+				<a class="cancel" href="/home.html">Cancel</a>
+				<a class="submit-post">Submit</a>
+			</div>
+		</form>
+		<script type="module" src="/assets/app/frontend/makePost.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,50 @@
+.modal {
+	margin: 0 auto;
+	top: 32%;
+
+	background-color: #2a2b30;
+	padding: 24px;
+
+	text-align: center;
+
+	height: 132px;
+	width: 30%;
+
+	border: 1px solid #2a2b30;
+	border-radius: 32px;
+}
+
+.error {
+	margin-bottom: 44px;
+}
+
+.modal:focus-visible {
+	outline: none;
+	box-shadow: none;
+}
+
+.modal::backdrop {
+	background-color: #00000081;
+}
+
+.modal div {
+	padding: 12px;
+	border-radius: 12px;
+}
+
+.option {
+	flex-grow: 1;
+}
+
+.option:hover {
+	cursor: pointer;
+	background-color: #3a3b42;
+}
+
+.close-id {
+	margin-top: 44px;
+}
+
+.show-my-id:hover {
+	cursor: pointer;
+}

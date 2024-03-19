@@ -1,0 +1,46 @@
+.new-id-container {
+	font-size: 18px;
+	width: 73%;
+
+	margin: 0 auto;
+	padding-left: 8px;
+
+	background-color: #34343a94;
+	border-left: solid #e3e3e3;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.options {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.options a {
+	padding: 10px 10px;
+	border-radius: 4px;
+
+	background-color: #2e2f35;
+	text-decoration: none;
+	width: 74%;
+
+	margin: 0 auto;
+}
+
+.options a:hover {
+	background-color: #838383;
+	color: #e3e3e3;
+	cursor: pointer;
+}
+
+.options a:active {
+	background-color: #ddd;
+	color: #3b3c41;
+}

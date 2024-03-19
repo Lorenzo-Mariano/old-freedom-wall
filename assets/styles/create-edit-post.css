@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #e3e3e3;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+
+	background-color: #1a1a1b;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	height: 85%;
+	min-width: 40%;
+	border-radius: 12px;
+	padding: 24px 12px;
+
+	background-color: #2a2b30;
+}
+
+.card-header {
+	display: flex;
+	flex-direction: column;
+
+	width: 80%;
+
+	font-size: 28px;
+	font-weight: 700;
+
+	padding-left: 8px;
+	margin: 0 auto;
+}
+
+.fields {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	width: 80%;
+	gap: 24px;
+
+	margin: 0 auto;
+}
+
+.error {
+	font-size: 12px;
+	padding-left: 4px;
+}
+
+.title, .description {
+	width: 100%;
+	resize: none;
+	padding: 8px;
+	border: none;
+	border-radius: 4px;
+	background-color: #323236;
+	color: #fff;
+	font-size: 18px;
+}
+
+.description {
+	font-size: 15px;
+	flex-grow: 1;
+}
+
+.buttons {
+	display: flex;
+
+	width: 80%;
+	gap: 6px;
+
+	margin: 0 auto;
+}
+
+.buttons a {
+	display: flex;
+	padding: 10px 10px;
+	border-radius: 4px;
+
+	background-color: #2e2f35;
+	text-decoration: none;
+	align-items: center;
+
+
+	height: 16px;
+	width: 100%;
+
+	margin: 0 auto;
+}
+
+.buttons a:hover {
+	background-color: #eee;
+	color: #3b3c41;
+	cursor: pointer;
+}
+
+.buttons a:active {
+	background-color: #ddd;
+	color: #3b3c41;
+}

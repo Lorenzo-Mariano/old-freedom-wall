@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home | Digital Freedom Wall - Araullo University</title>
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+		<link rel="stylesheet" href="./assets/styles/home/home.css">
+		<link rel="stylesheet" href="./assets/styles/home/posts-list.css">
+		<link rel="stylesheet" href="./assets/styles/home/panels.css">
+		<link rel="stylesheet" href="./assets/styles/home/modal.css">
+		<link rel="stylesheet" href="./assets/styles/global.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="panel-left panel">
+			<div class="options">
+				<a href="index.html" class="to-index">Main Menu</a>
+				<a href="home.html" class="to-home">Home</a>
+				<a href="create-post.html" class="create-post-button">Create Post</a>
+				<a href="my-posts.html" class="create-post-button">My Posts</a>
+				<a class="show-my-id">Show my ID</a>
+			</div>
+		</div>
+
+		<div class="posts-container">
+			<div class="location-container">
+				<div class="location">Home</div>
+			</div>
+
+			<div class="posts-list">
+				<dialog class="options-modal modal">
+					<div class="edit option">Edit</div>
+					<div class="delete option">Delete Post</div>
+					<div class="close option">Close</div>
+				</dialog>
+
+				<dialog class="error-modal modal">
+					<div class="error">You can only edit or delete your own posts.</div>
+					<div class="close option">Close</div>
+				</dialog>
+
+				<dialog class="id-modal modal">
+					<div class="user-id"></div>
+					<div class="close-id option">Close</div>
+				</dialog>
+			</div>
+		</div>
+
+		<div class="panel-right panel">
+			<div class="project-info">
+				<img class="banner" src="assets/images/banner.png">
+				<div class="about-project">
+					A simple social media website project by
+					Lorenzo Mariano, Andrew Santos and Marielle Zamora.
+					<br><br>
+					Course: ITE-083
+					<br>
+					Section: AU-2BSIT-A
+					<br>
+					Block: 4
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/app/frontend/app.js" defer type="module"></script>
+	</body>
+
+</html>
